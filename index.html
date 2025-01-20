@@ -58,7 +58,7 @@
 						</div>
 						<div class="row" id="otherInstitutionRow">
 							<div class="col-4"><span id="otherInstitutionText"></span><br /></div>
-							<div class="col-8"><small>Enter the name, street + no., ZIP no. + city, and country of your institution</small><input class="form-control" name="setOtherInstitution" id="otherInstitution"></input></div>
+							<div class="col-8"><small>Enter the name, street + no., ZIP no. + city, and country of your institution</small><input class="form-control" name="otherInstitution" id="otherInstitution"></input></div>
 						</div> 
 						<div class="row mt-3 ">
 							<div class="col-4"><span id="researchText">Kind of research</span><span class="text-danger">*</span><br /></div>
@@ -419,7 +419,7 @@
 						$("select[name='selectCompensation']").append(new Option('1 credit point for the lecture (e.g., when you need 3 for the lecture)', "compensation_onecreditpoint"));
 						
 						$("input[name='setTitle']").attr("placeholder", "Your research title");
-						$("input[name='setOtherInstitution']").attr("placeholder", "Your Institution, Streetname 123, ZIP City, Country");
+						$("input[name='otherInstitution']").attr("placeholder", "Your Institution, Streetname 123, ZIP City, Country");
 						$("input[name='setEthicalComittee'] ").attr("placeholder","Your review board (keep empty if none)"); 
 						$("input[name='setPrincipleInvestigator']").attr("placeholder","The person, who said you should do the study (e.g., Prof. Dr. Valentin Schwind)");
 						$("input[name='setPrincipleInvestigatorEmail']").attr("placeholder","firstname.lastname@institution.com");
